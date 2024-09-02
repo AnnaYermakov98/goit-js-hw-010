@@ -1,0 +1,58 @@
+.form {
+    max-width: 256px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  [name='delay'] {
+    width: 100%;
+    margin-top: 4px;
+    padding: 8px 16px;
+    border: 1px solid #808080;
+    min-width: 272px;
+    border-radius: 4px;
+    outline: none;
+    &:hover,
+    &:focus {
+      border-color: #000;
+    }
+    &:active {
+      border-color: #4e75ff;
+    }
+  }
+
+  fieldset {
+    display: flex;
+    justify-content: space-around;
+    min-width: 272px;
+    border: 1px solid #808080;
+    border-radius: 4px;
+    stroke-width: 1px;
+stroke: #808080;
+  }
+
+.button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 360px;
+    height: 40px;
+    background: #4e75ff;
+    &:hover {
+        background: #6c8cff;
+    }
+}
+
+[name='state'] {
+    width: 104px;
+height: 32px;
+border-radius: 4px;
+stroke-width: 1px;
+stroke: #000;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #2e2f42;
+}
